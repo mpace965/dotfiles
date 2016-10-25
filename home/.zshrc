@@ -1,4 +1,4 @@
-source $(homesick show_path dotfiles)/antigen/antigen.zsh
+source $HOME/.homesick/repos/dotfiles/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
