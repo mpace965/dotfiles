@@ -8,3 +8,8 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme steeef
 
 antigen apply
+
+if [[ -a ~/.zshrc.local ]]; then
+	source ~/.zshrc.local
+fi
+
