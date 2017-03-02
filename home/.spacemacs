@@ -31,6 +31,7 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     react
      ruby
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
@@ -41,8 +42,8 @@ values."
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
-     ;; git
-     ;; markdown
+     git
+     markdown
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
