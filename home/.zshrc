@@ -10,6 +10,9 @@ antigen theme steeef
 
 antigen apply
 
+# Aliases
+alias tmux='tmux -2'
+
 if [[ -a ~/.zshrc.local ]]; then
 	source ~/.zshrc.local
 fi
