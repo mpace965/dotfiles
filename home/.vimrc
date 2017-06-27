@@ -14,6 +14,12 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'scrooloose/nerdtree'
 
+" Syntax
+Plugin 'jelera/vim-javascript-syntax'
+
+" Theme
+Bundle 'altercation/vim-colors-solarized'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,3 +41,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Editor config
 set number
+syntax enable
+
+" Theme config
+set background=dark
+colorscheme solarized
