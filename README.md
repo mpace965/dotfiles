@@ -10,5 +10,8 @@ I use [homesick](https://github.com/technicalpickles/homesick) to manage this re
 * Vim
 	* Plugins managed with [Vundle](https://github.com/VundleVim/Vundle.vim)
 	* [NERDTree](https://github.com/scrooloose/nerdtree)
+	* Languages
+		* [JavaScript](https://github.com/pangloss/vim-javascript)
+	* [Solarized](https://github.com/pangloss/vim-javascript) color scheme
 * Tmux
 
