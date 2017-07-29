@@ -16,6 +16,7 @@ Plugin 'scrooloose/nerdtree'
 
 " Syntax
 Plugin 'pangloss/vim-javascript'
+Plugin 'elixir-lang/vim-elixir'
 
 " Theme
 Bundle 'altercation/vim-colors-solarized'
