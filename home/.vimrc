@@ -17,6 +17,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 
+" Utility
+Plugin 'yegappan/grep'
+
 " Syntax
 Plugin 'w0rp/ale'
 Plugin 'pangloss/vim-javascript'
