@@ -54,12 +54,25 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " Ale Config
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+" nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+" nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
 
 " Editor config
 set number
 syntax enable
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
 
 " Theme config
 set background=dark
