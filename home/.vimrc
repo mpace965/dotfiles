@@ -19,6 +19,7 @@ Plugin 'kien/ctrlp.vim'
 
 " Utility
 Plugin 'yegappan/grep'
+Plugin 'bronson/vim-trailing-whitespace'
 
 " Syntax
 Plugin 'w0rp/ale'
