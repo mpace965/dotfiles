@@ -25,6 +25,7 @@ Plugins managed with [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 * [Grep](https://github.com/yegappan/grep)
 * [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace)
+* [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
 #### Languages
 
